@@ -1,3 +1,8 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
 h1 {
   width: 99%;
   font-weight: bold;
@@ -5,7 +10,6 @@ h1 {
   text-align: center;
   background-color: #effff;
   margin: 2px auto;
-  /*margin: 5px 0 0;*/
   border: 1px solid #ccc;  
 }
 
@@ -36,4 +40,13 @@ h1 {
 
 .letras:hover {
   border: 2px solid #999;
+}
+
+
+/*Aqui inicia o teclado*/
+
+#teclado {
+  background-color: red;
+  width: 450px;
+  height: 200px; 
 }
