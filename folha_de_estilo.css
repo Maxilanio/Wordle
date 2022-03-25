@@ -1,0 +1,37 @@
+h1 {
+  font-weight: bold;
+  font-size: 30px;
+  text-align: center;
+  background-color: #effff;
+  margin: 5px 0 0;
+  border: 1px solid #ccc;
+}
+
+#main {
+  width: 350px;
+  height: 422px;
+  /*background-color: red;*/
+  /*border: 1px solid #ccc;*/
+  margin: 40px auto;
+}
+
+.main_2 {
+  width: 100%;
+  height: 70px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.letras {
+  width: 18%;
+  height: 60px;
+  margin-right: 5px;
+  margin-bottom: 2px;
+  float: left;
+  border: 1px solid #999;
+}
+
+.letras:hover {
+  border: 2px solid #999;
+}
