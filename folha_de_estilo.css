@@ -21,7 +21,7 @@ h1 {
   height: 315px;
   /*background-color: red;*/
   /*border: 1px solid #ccc;*/
-  margin: 10px auto;
+  margin: 30px auto;
   margin-bottom: 100px;
 }
 
@@ -52,8 +52,9 @@ h1 {
 #teclado {
   background-color: red;
   width: 390px;
-  height: 200px; 
+  height: 150px; 
   position: absolute;
   left: 50%;  
+  bottom: 0;
   transform: translatex(-50%); 
 }
