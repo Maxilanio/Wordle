@@ -4,38 +4,42 @@
 }
 
 h1 {
-  width: 99%;
-  font-weight: bold;
-  font-size: 30px;
+  width: 100%;
+  height: 50px;
+  line-height: 50px; 
+  font-size: 35px;
   text-align: center;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 900;
   background-color: #effff;
   margin: 2px auto;
-  border: 1px solid #ccc;  
+  border-bottom: 1px solid #ccc;  
 }
 
 #main {
   width: 350px;
-  height: 422px;
+  height: 315px;
   /*background-color: red;*/
   /*border: 1px solid #ccc;*/
-  margin: 100px auto;
+  margin: 10px auto;
+  margin-bottom: 100px;
 }
 
 .main_2 {
   width: 100%;
-  height: 70px;
+  height: 68px;
   display: flex;
   justify-content: center;
   align-items: center;
 }
 
 .letras {
-  width: 18%;
-  height: 60px;
-  margin-right: 5px;
-  margin-bottom: 2px;
+  width: 62px;
+  height: 62px;
+  margin-right: 6px;
+  /*margin-bottom: 2px;*/
   float: left;
-  border: 1px solid #999;
+  border: 2px solid #d3d6da;
 }
 
 .letras:hover {
@@ -48,9 +52,8 @@ h1 {
 #teclado {
   background-color: red;
   width: 390px;
-  height: 220px; 
+  height: 200px; 
   position: absolute;
-  left: 50%;
-  transform: translatex(-50%);
-  bottom: 0;
+  left: 50%;  
+  transform: translatex(-50%); 
 }
