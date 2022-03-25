@@ -18,7 +18,7 @@ h1 {
   height: 422px;
   /*background-color: red;*/
   /*border: 1px solid #ccc;*/
-  margin: 40px auto;
+  margin: 100px auto;
 }
 
 .main_2 {
@@ -48,6 +48,9 @@ h1 {
 #teclado {
   background-color: red;
   width: 390px;
-  height: 200px;
-  margin: 0 auto; 
+  height: 220px; 
+  position: absolute;
+  left: 50%;
+  transform: translatex(-50%);
+  bottom: 0;
 }
