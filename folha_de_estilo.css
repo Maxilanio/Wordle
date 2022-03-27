@@ -2,10 +2,9 @@ h1 {
   height: 50px;
   line-height: 50px;
   text-align: center;
-  font-family: 'Roboto', sans-serif;
+  font-family: "Roboto", sans-serif;
   font-weight: 900;
   border-bottom: 1px solid #ccc;
-
 }
 
 #main {
@@ -36,16 +35,4 @@ h1 {
 
 .letras:hover {
   border: 2px solid #999;
-}
-
-
-/*Aqui inicia o teclado*/
-
-#teclado {
-  background-color: red;
-  width: 390px;
-  height: 150px; 
-  position: absolute;
-  left: 50%;   
-  transform: translatex(-50%); 
 }
