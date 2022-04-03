@@ -58,3 +58,15 @@ h1 {
 .letras:hover {
   border: 2px solid #999;
 }
+
+/*#teclado {
+  width: 100%; 
+  height: 200px;
+  background-color: aqua ;
+}*/
+
+#teclado {
+  display: flex;
+  grid-template: 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px; / 20px;
+  background-color: red;
+}
