@@ -34,8 +34,8 @@ h1 {
   height: 315px;
   /*background-color: red;*/
   /*border: 1px solid #ccc;*/
-  margin: 10px auto;
-  margin-bottom: 100px;
+  margin: 40px auto;
+  margin-bottom: 140px;
 }
 
 .main_2 {
@@ -65,7 +65,7 @@ h1 {
   grid-template-rows: 55px;
   grid-gap: 0 5px;
   justify-content: center;
-  /*background-color: rgb(173, 239, 175);*/
+  /*background-color: rgb(173, 239, 175);*/   
 }
 
 #teclado01 {
