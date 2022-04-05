@@ -86,12 +86,43 @@ h1 {
   margin: 6px 0;
 }
 
-.teclado {
-  background-color: red;
+.teclado {  
   border-radius: 4px;
   background-color: #d3d6da;
   font-weight: bold; 
   text-align: center;
   line-height: 55px;
   cursor: pointer;
+}
+
+@media (min-width: 800px) { 
+
+  #teclado {
+    display: grid;
+    grid-template-columns: 42px 42px 42px 42px 42px 42px 42px 42px 42px 42px;
+    grid-template-rows: 55px;
+    grid-gap: 0 6px;
+    justify-content: center;
+    /*background-color: rgb(173, 239, 175);*/   
+  }
+  
+  #teclado01 {
+    display: grid; 
+    grid-template-columns: 42px 42px 42px 42px 42px 42px 42px 42px 42px;
+    grid-template-rows: 55px;
+    grid-gap: 0 6px; 
+    justify-content: center;
+    margin: 6px 0;
+  }
+  
+  #teclado02 {
+    display: grid; 
+    grid-template-columns: 61px 42px 42px 42px 42px 42px 42px 42px 66px;
+    grid-template-rows: 55px;
+    grid-gap: 0 6px; 
+    justify-content: center;
+    margin: 6px 0;
+  }
+
+
 }
