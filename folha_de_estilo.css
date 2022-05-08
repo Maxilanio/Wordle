@@ -1,5 +1,6 @@
 body {
-  background-color: #fff;
+  background-color: #121213;
+  color: #fff;
 }
 
 .icones {
@@ -9,18 +10,18 @@ body {
   flex-direction: row;
   justify-content: space-between;
   align-items: center;
-  border-bottom: 1px solid #d3d6da;
+  border-bottom: 1px solid #3a3a3c;
   padding: 0 15px;
 }
 
 header div i {
-  color: #000;
+  color: #fff;
   font-size: 25px;
   margin-right: 5px;
 }
 
 h1 {
-  color: #000;
+  color: #fff;
   height: 50px;
   line-height: 50px;
   text-align: center;
@@ -50,7 +51,7 @@ h1 {
   height: 52.8px;
   margin-right: 4px;
   float: left;
-  border: 2px solid #d3d6da;
+  border: 2px solid #3a3a3c;
 }
 
 .letras:hover {
@@ -86,12 +87,10 @@ h1 {
 .teclado {
   border-radius: 4px;
   background-color: #818384;
-  background-color: #d3d6da;
-  font-weight: bold;
+  /*font-weight: bold;*/
   text-align: center;
   line-height: 55px;
   cursor: pointer;
-  color: #fff;
 }
 
 .teclado_main {
